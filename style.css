@@ -1,0 +1,69 @@
+body{
+    background-color: wheat;
+}
+
+p {
+    color: rgb(253, 251, 251);
+    font-size: 50px;
+    border: solid 5px green;
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0;
+    border-radius: 20px;
+    transition: all .5s;
+  }
+  p:hover {
+    background-color: rgb(58, 3, 3);
+    transition: all .5s;
+  }
+
+  h2 {
+    color: rgb(253, 251, 251);
+    font-size: 70px;
+    text-align: center;
+    background-color: rgb(236, 12, 12);
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0;
+    border-radius: 20px;
+    transition: all .5s;
+
+  }
+  h2:hover {
+    background-color: rgba(238, 30, 30, 0.952);
+    transition: all .5s;
+    border-radius: 25px;
+
+  }
+
+  label{
+    font-size: 30px;
+  }
+  input{
+    font-size: 30px;
+  }
+
+.container {
+    text-align: center;
+}
+.container .select select{
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 5px red;
+
+    
+}
+
+.container .select button{
+font-size: 25px;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: blue;
+color: white;
+}
